@@ -1,0 +1,26 @@
+//echo "# manojfinal123" >> README.md
+
+
+
+…or create a new repository on the command line
+echo "# manojfinal123" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/manojbhalekar/manojfinal123.git
+git push -u origin main
+
+
+//**********************************************************
+// working directory   --- staging ---- local repo ----remote repo
+
+echo "# tixdo5" >> README.md
+git init --- intialize the repo with git
+git add . --- all files from working staging 
+git add script3.js --- only one file added to staging
+git commit -m "login implemented"
+git branch -M main - crating a branch
+git remote add origin https://github.com/Minskoleopc/tixdo5.git 
+- connecting local with remote repo
+git push -u origin main  - local remote
